@@ -18,7 +18,7 @@ View your app in AI Studio: https://aistudio.google.com/apps/feab5b21-eb49-4930-
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
-===============================================================================================================================================================
+=====================================================================================================================================================
 **Project Architecture**
 The application is a full-stack web application built with a modern, high-performance stack designed for scalability and seamless deployment.
 **Frontend** (React + Vite + Tailwind CSS):
@@ -31,8 +31,8 @@ The application is a full-stack web application built with a modern, high-perfor
 **Serverless Compatibility:** Includes an api/index.ts entry point specifically optimized for Vercel Functions, allowing the app to run in a serverless environment.
 **API Layer:** Proxies requests to external services (like Google Sheets and Gemini AI) to keep API keys secure on the server side.
 **Data Integration:**
-Google Sheets as a CMS: The app dynamically fetches content (titles, descriptions, categories) from a Google Spreadsheet, making it easy to update content without redeploying code.
-Google Drive Image Hosting: Images are pulled directly from Google Drive IDs, using optimized thumbnail URLs for faster loading.
+**Google Sheets as a CMS:** The app dynamically fetches content (titles, descriptions, categories) from a Google Spreadsheet, making it easy to update content without redeploying code.
+**Google Drive Image Hosting:** Images are pulled directly from Google Drive IDs, using optimized thumbnail URLs for faster loading.
 
 **Core Features**
 **Dynamic Gallery:** A responsive, category-filtered gallery that displays images and content directly from your Google Sheets data.
@@ -49,9 +49,8 @@ Google Drive Image Hosting: Images are pulled directly from Google Drive IDs, us
 **Image Optimization:** Uses Google’s lh3.googleusercontent.com transformation parameters to serve correctly sized images based on the layout.
 
 **Technical Stack Summary**
-Runtime: Node.js
-Language: TypeScript
-Frontend: React, Tailwind CSS, Lucide-React (Icons), Motion (Animations)
-Backend: Express
-AI: Google Gemini API
-Deployment: Optimized for Vercel and Cloud Run architectures.
+**Language:** TypeScript
+**Frontend:** React, Tailwind CSS, Lucide-React (Icons), Motion (Animations)
+**Backend:** Express + Node Js
+**AI:** Google Gemini API
+**Deployment:** Optimized for Vercel and Cloud Run architectures.
