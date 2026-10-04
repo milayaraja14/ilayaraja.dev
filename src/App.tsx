@@ -38,7 +38,7 @@ const Hero: React.FC<{ data: HeroData | null }> = ({ data }) => {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-bold uppercase tracking-widest mb-8"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-brand-accent animate-pulse" />
-            Empowering Quality Engineering with AI
+            Empowering Delivery Excellence with AI
           </motion.div>
           
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-8 tracking-tighter">
