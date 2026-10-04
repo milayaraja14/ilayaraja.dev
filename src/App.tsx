@@ -15,7 +15,7 @@ const Hero: React.FC<{ data: HeroData | null }> = ({ data }) => {
   const stats = [
     { label: 'Years Exp', value: '20+' },
     { label: 'Apps Cloud Transformation', value: '100+' },
-    { label: 'AI Tools', value: '30+' },
+    { label: 'AI Tools', value: '35+' },
     { label: 'Awards', value: '20+' },
     { label: 'Certifications', value: '15+' },
   ];
@@ -302,7 +302,7 @@ export default function App() {
         <footer className="py-12 px-6 opacity-30 text-center xl:text-left">
           <div className="max-w-7xl mx-auto flex flex-col xl:flex-row justify-between items-center gap-6">
             <p className="font-mono text-[10px] uppercase tracking-[0.3em]">
-              &copy; {new Date().getFullYear()} ILAYARAJA M / ARCHITECT.QE
+              &copy; {new Date().getFullYear()} ILAYARAJA M / AI.DM
             </p>
             <div className="flex gap-8 font-mono text-[10px] uppercase tracking-[0.2em]">
               <span className="hover:text-brand-accent cursor-wait">SECURED PORTAL</span>
